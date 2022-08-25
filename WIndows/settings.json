@@ -1,0 +1,85 @@
+{
+  // SETTINGS
+  "workbench.settings.editor": "json",
+  // EDITOR
+
+  "editor.fontSize": 17,
+  "editor.fontLigatures": true,
+  //    "editor.fontFamily": "Fira Code",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.cursorSmoothCaretAnimation": false,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "all",
+  // "editor.suggestSelection": "first",
+  "editor.minimap.scale": 1,
+  "editor.minimap.enabled": false,
+
+  // **********************
+  // ** WORKBENCH **
+  // **********************
+  "window.zoomLevel": 0,
+  "files.autoSaveDelay": 50000,
+  "files.autoSave": "afterDelay",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorCustomizations": {},
+  "workbench.tree.indent": 20,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.visible": true,
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Eslint
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.enable": true,
+  // "editor.tabSize": 4,
+  "editor.codeActionsOnSave": {
+    // "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript", "javascriptreact"],
+
+  // FOLDERS COLORS
+
+  // Prettier
+
+  //  Comment the line bellow only in emmet in off
+  // "prettier.disableLanguages": ["javascript"],
+
+  //Terminal
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+  "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": ["/k C:\\Cmder\\vendor\\init.bat"],
+
+  // Suggestions
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  // "editor.suggestSelection": "first"
+
+  // "editor.quickSuggestions": true
+
+  // EMMET
+  // "emmet.triggerExpansionOnTab": true
+
+  // To include html formating in javascript files
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+
+  "vsintellicode.typescript.completionsEnabled": true,
+
+  "typescript.suggest.paths": true,
+  "tabnine.experimentalAutoImports": true,
+  "editor.renameOnType": true
+}
