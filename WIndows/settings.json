@@ -9,7 +9,6 @@
   "editor.copyWithSyntaxHighlighting": false,
   "editor.multiCursorModifier": "alt",
   "editor.cursorSmoothCaretAnimation": false,
-  "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "all",
   // "editor.suggestSelection": "first",
   "editor.minimap.scale": 1,
@@ -81,5 +80,7 @@
 
   "typescript.suggest.paths": true,
   "tabnine.experimentalAutoImports": true,
-  "editor.renameOnType": true
+  // "editor.renameOnType": true,
+  "editor.guides.indentation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
