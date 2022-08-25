@@ -1,0 +1,9 @@
+{
+  "name": "vscode-settings",
+  "version": "1",
+  "description": "vscode",
+  "main": "index.js",
+  "repository": "https://github.com/silavsale/vscode-settings.git",
+  "author": "Sergiy Rudenko <silavsale@gmail.com>",
+  "license": "MIT"
+}
