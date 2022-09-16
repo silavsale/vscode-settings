@@ -1,0 +1,6 @@
+{
+    // install Zsh, Oh my zsh, Powerline10k.
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "explorer.confirmDelete": false
+    // "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
+}
