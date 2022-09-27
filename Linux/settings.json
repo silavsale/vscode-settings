@@ -1,3 +1,132 @@
 {
-    // add settings here
+  // SETTINGS
+  "workbench.settings.editor": "json",
+
+  // EDITOR
+
+  "editor.fontSize": 18,
+
+  "editor.fontLigatures": true,
+  // "editor.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 15,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.cursorSmoothCaretAnimation": false,
+  "editor.renderWhitespace": "all",
+  // "editor.suggestSelection": "first",
+  "editor.minimap.scale": 1,
+  "editor.minimap.enabled": false,
+  "files.autoSaveDelay": 50000,
+  "files.autoSave": "afterDelay",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorCustomizations": {},
+  "workbench.tree.indent": 20,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.visible": true,
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Show mu
+  "workbench.editor.wrapTabs": false,
+
+  // Eslint
+  // "eslint.format.enable": true,
+  // "[javascript]": {
+  //   "editor.formatOnSave": true
+  // },
+  // "eslint.enable": true,
+  // "editor.tabSize": 4,
+  // "editor.codeActionsOnSave": {
+  //   // "source.fixAll.eslint": true,
+  //   // "source.organizeImports": true
+  // },
+  // "eslint.alwaysShowStatus": true,
+  // "eslint.validate": ["javascript", "javascriptreact"],
+
+  // FOLDERS COLORS
+
+  // Prettier
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+
+  //  Comment the line bellow only in emmet in off
+  // "prettier.disableLanguages": ["javascript"],
+
+  "prettier.semi": false,
+  "javascript.format.semicolons": "remove",
+
+  //Terminal
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+  // "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
+  // "terminal.integrated.shellArgs.windows": ["/k C:\\Cmder\\vendor\\init.bat"],
+
+  // Suggestions
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  // "editor.suggestSelection": "first"
+
+  // "editor.quickSuggestions": true
+
+  // EMMET
+  // "emmet.triggerExpansionOnTab": true
+
+  // To include html formating in javascript files
+  // "emmet.includeLanguages": {
+  //   "javascript": "html"
+  // },
+
+  "vsintellicode.typescript.completionsEnabled": true,
+
+  "typescript.suggest.paths": true,
+  "tabnine.experimentalAutoImports": true,
+
+  "window.titleBarStyle": "custom",
+
+  // "window.title": "${dirty}${separator}${rootName}${separator}${activeEditorShort}"
+  "window.title": "File Location - ${activeEditorLong}",
+
+  "window.autoDetectColorScheme": false,
+  // "window.zoomLevel": 0,
+
+  // 1 Show or hide activity bar(Located on the far left-hand side,
+  // 2 this lets you switch between views and gives you additional
+  // 3 context-specific indicators,
+  // 4 like the number of outgoing changes when Git is enabled.)
+  "workbench.activityBar.visible": true,
+
+  // font for terminal
+  // "terminal.integrated.fontFamily": "Menlo for Powerline",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  // "terminal.integrated.fontFamily": "monospace",
+  // "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'"
+  // "terminal.integrated.fontFamily": "Meslo LG M for Powerline"
+  // "terminal.external.osxExec": "iTerm.app",
+  // "terminal.integrated.shell.osx": "/bin/zsh",
+  // "terminal.integrated.fontFamily": "MesloLGS NF", // Mac
+
+  "terminal.integrated.rendererType": "canvas",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.productIconTheme": "fluent-icons",
+
+  // Show git folder
+  "files.exclude": {
+    "**/.git": false
+  },
+  "window.zoomLevel": 0,
+  "editor.guides.indentation": true
 }
